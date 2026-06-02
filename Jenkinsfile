@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'docker build -t myapp'
+                bat 'docker build -t .'
             }
         }
 
